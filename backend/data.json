@@ -1,0 +1,71 @@
+{
+    "users": [
+      {
+        "UserID": 1,
+        "Username": "john_doe",
+        "Email": "john.doe@example.com",
+        "Password": "hashedpassword123",
+        "Bio": "Développeur passionné de technologies web.",
+        "ProfilePicture": "https://example.com/profiles/john.jpg"
+      },
+      {
+        "UserID": 2,
+        "Username": "jane_smith",
+        "Email": "jane.smith@example.com",
+        "Password": "hashedpassword456",
+        "Bio": "Blogueuse et créatrice de contenu.",
+        "ProfilePicture": "https://example.com/profiles/jane.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "PostID": 1,
+        "Title": "Introduction à Express.js",
+        "Content": "Express.js est un framework léger et rapide pour Node.js...",
+        "Category": "Développement Web",
+        "PublicationDate": "2024-03-25T10:00:00Z",
+        "Tags": "Express, Node.js, API"
+      },
+      {
+        "PostID": 2,
+        "Title": "Les bases de MongoDB",
+        "Content": "MongoDB est une base de données NoSQL orientée documents...",
+        "Category": "Bases de données",
+        "PublicationDate": "2024-03-24T15:30:00Z",
+        "Tags": "MongoDB, NoSQL, Backend"
+      }
+    ],
+    "comments": [
+      {
+        "CommentID": 1,
+        "PostID": 1,
+        "UserID": 2,
+        "Content": "Super article ! Merci pour les explications claires.",
+        "Timestamp": "2024-03-25T12:00:00Z"
+      },
+      {
+        "CommentID": 2,
+        "PostID": 2,
+        "UserID": 1,
+        "Content": "Très utile, j'ai enfin compris les bases de MongoDB.",
+        "Timestamp": "2024-03-25T14:20:00Z"
+      }
+    ],
+    "interactions": [
+      {
+        "InteractionID": 1,
+        "UserID": 1,
+        "PostID": 1,
+        "Type": "Like",
+        "Timestamp": "2024-03-25T10:30:00Z"
+      },
+      {
+        "InteractionID": 2,
+        "UserID": 2,
+        "PostID": 2,
+        "Type": "Share",
+        "Timestamp": "2024-03-25T11:45:00Z"
+      }
+    ]
+  }
+  
